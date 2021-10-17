@@ -62,3 +62,4 @@
             (lambda (oldfun)
               (let ((help (help-at-pt-kbd-string)))
                 (if help (message "%s" help) (funcall oldfun)))))
+(use-package darkroom)
