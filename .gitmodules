@@ -41,6 +41,9 @@
 	url = git@github.com:magit/magit.git
 	recursive-byte-compile = true
 	info-path = Documentation
+[submodule "markdown-mode"]
+	path = lib/markdown-mode
+	url = git@github.com:jrblevin/markdown-mode.git
 [submodule "nov"]
 	path = lib/nov
 	url = https://depp.brause.cc/nov.el.git
